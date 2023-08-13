@@ -1,0 +1,112 @@
+body{
+  font-family: Inter, sans-serif; 
+  margin: 0 10%;
+}
+.box {
+    width: auto;
+    border: 2px solid grey;
+    padding: 10px;
+    margin: 20px auto;
+  }
+.gridbox{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: fr 1fr 1fr;
+  width: auto;
+  border: 2px solid grey;
+  padding: 10px;
+  margin: 20px auto;
+}
+  .cool-blue{
+    display:inline-block;
+    background-color: #2d5dcc;
+    color:white;
+    text-align: center;
+    width: 30%;
+    height: 80px;
+    padding: 10px;
+    margin: 20px auto;
+  }
+  
+  .pink{
+    display:inline-block;
+    background-color: #d957d9;
+    text-align: center;
+    width: 30%;
+    height: 80px;
+    padding: 10px;
+    color:black;
+  }
+
+  .mint-green{
+    display:inline-block;
+    background-color: #4fe0b0;
+    text-align: center;
+    width: 30%;
+    height: 80px;
+    padding: 10px;
+    color:black;
+  }
+  .burlywood{
+    display:inline-block;
+    background-color: burlywood;
+    text-align: center;
+    width: 30%;
+    height: 80px;
+    padding: 10px;
+    color:black;
+  }
+
+  .Source-code-pro{
+    font-family: 'Source Code Pro', sans-serif;
+  }
+
+  .Nunito-sans{
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .Poppins{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .h1{
+    grid-column: span 2;
+    font-weight: 700;
+  }
+
+  .h2{
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+
+  .italic{
+    font-style: italic;
+  }
+
+  .textbox{
+    width: auto;
+    border: 2px solid grey;
+    padding: 10px;
+    margin: 20px auto;
+  } 
+  
+  .textbox h1{
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .text-h1{
+    font-weight: 700;
+    font-size: 26px;
+    padding: 10px 10px;
+  }
+
+  .text-h2{
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 10px;
+  }
